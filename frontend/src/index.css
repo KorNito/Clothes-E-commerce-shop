@@ -23,6 +23,9 @@ body{
   font-weight: bold;
   text-decoration: none;
 }
+.brand a:hover {
+  color: #FF8000;
+}
 .header-links a{
   color: #FFF;
   text-decoration: none;
@@ -72,8 +75,8 @@ body{
   border-bottom: .1rem #c0c0c0 solid;
 }
 .product-image{
-  max-width: 34rem;
-  max-height: 34rem;
+  width: 34rem;
+  height: 34rem;
 }
 .product-name{
   font-size: 2rem;
@@ -110,6 +113,7 @@ body{
 }
 .sidebar{
   position: fixed;
+  transition: all .5s;
   transform: translateX(-30rem);
   width: 30rem;
   background-color: #f0f0f0;
