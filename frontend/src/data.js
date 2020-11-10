@@ -1,5 +1,6 @@
 export default {
     products: [{
+        _id: '1',
         name: 'Slim Shirt',
         category: 'Shirts',
         image: '/images/slim-shirt.jpg',
@@ -9,6 +10,7 @@ export default {
         reviews: 10
     },
     {
+        _id: '2',
         name: 'Fit Shirt',
         category: 'Shirts',
         image: '/images/fit-shirt.jpg',
@@ -18,6 +20,7 @@ export default {
         reviews: 10
     },
     {
+        _id: '3',
         name: 'Kelnės',
         category: 'Pants',
         image: '/images/pants.jpg',
